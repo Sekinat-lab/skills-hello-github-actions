@@ -10,7 +10,11 @@ _Create and run a GitHub Actions workflow._
 
 _Nice work! :tada: You added a workflow file!_
 
+
+**What is _GitHub Actions_?**: GitHub Actions is a flexible way to automate nearly every aspect of your team's software workflow. You can automate testing, continuously deploy, review code, manage issues and pull requests, and much more. The best part, these workflows are stored as code in your repository and easily shared and reused across teams. To learn more, check out these resources:
+
 Here's what the entries in the `welcome.yml` file, on the `welcome-workflow` branch, mean:
+
 
 - `name: Post welcome comment` gives your workflow a name. This name will appear in the Actions tab of your repository.
 - `on: pull_request: types: [opened]` indicates that your workflow will execute whenever someone opens a pull request in your repository.
